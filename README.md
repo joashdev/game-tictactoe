@@ -1,24 +1,12 @@
-# t3
+# TIC-TAC-TOE
+![](public/favicon.png "TicTacToe")
 
-## Project setup
-```
-npm install
-```
+---
+### Description
+A 2-player tictactoe game made with Vuejs and BulmaCSS.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Live Deploy
+<https://game-tictactoe.web.app>
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Contributors
+- Kent Joash A. Zamudio  <zamudiokentjoash@gmail.com> (github.com/joashdev)

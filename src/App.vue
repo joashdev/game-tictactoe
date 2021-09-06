@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="columns is-centered m-0 p-0">
+    <div class="column is-two-fifths-desktop is-centered">
+      <Dashboard />
+      <Cells />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Cells from './components/Cells';
+import Dashboard from './components/Dashboard';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Cells, Dashboard
   }
-}
+};
 </script>
 
 <style>
+@import 'https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css';
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 </style>
